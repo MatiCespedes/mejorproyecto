@@ -1,0 +1,43 @@
+/*importante*/
+:root{
+    --bs-black: #000;
+    --bs-black-gray-booton: #1D1E20;
+}
+
+/*Inscription internship*/
+.container_inscription_internship {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+

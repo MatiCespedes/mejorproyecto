@@ -1,0 +1,67 @@
+/*importante*/
+:root{
+    --bs-black: #000;
+    --bs-black-gray-booton: #1D1E20;
+}
+/*Head*/
+
+.header {
+    background-color: var(--bs-black);
+    color: white;
+    padding: 25px;
+}
+
+.name_titulo {
+    color: white;
+    font-size: 54px;
+}
+
+.navbar {
+    background-color: var(--bs-black);
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    font-size: 20px; /* Tamaño del texto en el navbar */
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: var(--bs-black-gray-booton); /* Cambia el color del texto al pasar el cursor */
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    background-color: var(--bs-black);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.submenu-content li {
+    display: block;
+}
+
+.submenu-content li a {
+    color: #fff;
+    text-decoration: none;
+}
